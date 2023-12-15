@@ -1,0 +1,125 @@
+@media screen and (min-width:768px){
+    header{
+        height: 432px;
+        background-image: url(../imagens/caçadores-tablet.png);
+    }
+    .title--big{
+        font-size: 23px;
+    }
+    nav img{
+        height: 75px;
+    }
+    .start_nav_hero span{
+        font-size:25px;
+    }
+    div#assinatura{
+        display:inline-block;
+        margin-top:114px;
+        height: 240px;
+        width: 250px;
+        flex-shrink: 0;
+    }
+    #assinatura p {
+        font-size: 1.5rem;
+    }
+    #assinatura input{
+        padding:0 10px 0 10px;
+        margin-top: 5px;
+    }
+    #assinatura button{
+        width:110px;
+        margin-top:15px;
+    }
+   
+    #assinatura > div label{
+       font-size: 20px;
+    }
+    main .historia{
+        text-align: left;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #0000003a;
+        position: relative;
+        height: 134px;
+        width: 548px;
+    
+  }
+    main .texto{
+        font-size: 1.5rem;
+        width: 358px;
+        align-self: auto;
+        padding-bottom: 0;
+        padding-left: 20px;
+    }
+    div.principal img{
+        height: 279px;
+        position: absolute;
+        top: -90%;
+        left: 59%;
+        
+    }
+     main  div.auto{
+        display: flex;
+        justify-content: center;
+    }
+    /* game */
+div.game.fristscreen{
+    height:340px;
+    width:700px;
+   
+}
+div.game.fristscreen img{
+    height:160px;
+    width:154px;
+    margin-top:10px;
+}
+div.game.fristscreen button{
+    padding:6px 60px 6px 60px;
+    
+    font-size:1.8rem;
+    color:white;
+}
+div.game.secondscreen{
+    height:340px;
+    width:700px;
+
+}
+div.game.secondscreen img{
+    margin-top:10px;
+    margin-bottom:15px;
+    width:60%;
+    height: 90%;
+}
+div.game.bind{
+    height:340px;
+    display: none;
+    width:700px;
+}
+div.game.thirddscreen{
+    height:340px;
+    width:700px;
+    
+}
+div.game.thirddscreen .personagem img,div.game.bind .personagem img{
+    
+    height: 130px;
+    margin-bottom: 10px;
+}
+.game.container .versus{
+    height:101px;
+    text-align: center;
+}
+div.game.thirddscreen h4,div.game.bind h4{
+    font-size: 2.3rem;
+    padding-left: 15px;
+ }
+ div.game.thirddscreen table td{
+    padding-right: 5px;
+    font-size: 1.7rem;
+ }
+ div.game.thirddscreen span{
+    font-size:1.8rem;
+ }
+}
+

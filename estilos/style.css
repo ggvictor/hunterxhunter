@@ -1,0 +1,354 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Lobster&family=Raleway:ital,wght@1,800&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jolly+Lodger&family=Lobster&family=Raleway:ital,wght@1,800&family=Roboto:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'jolly lodger'  ;
+    
+}
+:root{
+    font-size: 62.5%;
+}
+.title--big{
+    font-size: 18px;
+    color: white;
+    
+}
+.title--medium{
+    font-size: 42px;
+    color: white;
+    font-family:  'bebas neue' ;
+}
+html{
+    width: 100%;
+}
+body{
+    /* background-color:#00950F ; */
+    height: 100vh;
+    color: white !important;
+    text-shadow: 0px 4px 9px black;
+    overflow-x: hidden;
+}
+/*header*/
+
+header{
+    height: 213px;
+    width: 100vw;
+    background-image: url(../imagens/caçadores-moblie.png);
+    background-size: cover;
+}
+nav.start_nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav img{
+    height: 50px;
+   
+}
+
+div.start_nav_hero{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div#assinatura{
+    background-color:#15181563;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top:114px;
+    height: 199px;  
+    width: 214px;
+    flex-shrink: 0;
+}
+
+
+#assinatura h1{
+    color:white;
+    padding-top: 2px;
+    border-bottom:2px solid #00FF19;
+}
+#assinatura p {
+    font-size:14px;
+    max-width:100%;
+    padding-top:2px;
+    padding-bottom:7px;
+    margin-bottom:5px;
+    border-bottom:2px solid #00FF19;
+    
+
+}
+#assinatura input{
+    text-decoration:none;
+    border-radius:8px;
+    margin-bottom:7px;
+    border:none;
+}
+#assinatura button{
+    width:89px;
+    color:white;
+    border-radius:8px;
+    background-color:rgba(0, 255, 25, 0.73);
+    margin-bottom:15px;
+}
+#assinatura > #termos{
+    width:9px;
+    height:7px;
+    margin-top:10px;
+}
+/* main parte da historia*/
+main{
+    background-color:#00950F; 
+}
+main .historia{
+    text-align: center;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #0000003a;
+    position: relative;
+    height: 277px;
+    width: 100%;
+}
+
+main .texto{
+    font-size: 1.4rem;
+    width: 271px;
+    align-self: center;
+    padding-bottom: 40px;
+}
+div.principal img{
+    height: 156px;
+    position: absolute;
+    
+    top: -36%;
+    left: 24%;
+}
+/* personagens*/
+section.personagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+section .personagem_container{
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+    height: 406px;
+}
+.personagem_container .painel{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+.painel h3{
+    font-size: 2.4rem;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    text-shadow: 4px 4px 4px #FF0000;
+}
+.painel.active{
+    flex: 5;
+}
+.painel.active h3{
+    opacity: 1;
+    
+}
+@media(max-width:480px){
+    .personagem_container{
+        width:100vw;
+    }
+    .personagem_container .painel{
+        margin: 2px;
+    }
+    .painel:nth-of-type(4),
+    .painel:nth-of-type(5){
+        display: none;
+    }
+}
+/* walpapers */
+
+.slider {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+div.body{
+    margin-top: 30px;
+}
+/* game */
+
+section.game.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+div.game.fristscreen{
+    height:200px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color: #0000003a;
+    margin-bottom: 35px;
+}
+div.game.fristscreen img{
+    height:62px;
+    width:65px;
+    margin-top:10px;
+}
+div.game.fristscreen button{
+    padding:6px 60px 6px 60px;
+    margin-top:15px;
+    background:#00FF19;
+    border-radius:15px;
+    font-size:1.5rem;
+    color:white;
+}
+div.game.secondscreen{
+    display:none;
+    height:200px;
+    width:100%;
+    /* display:flex; */
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color: #0000003a;
+    margin-bottom: 35px;
+}
+div.game.secondscreen img{
+    margin-top:10px;
+    margin-bottom:15px;
+    width:70%;
+}
+div.game.secondscreen span{
+    font-size:2rem;
+}
+div.game.bind{
+    height:215px;
+    display: none;
+    width:100%;;
+    /* display:flex; */
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: #0000003a;
+    margin-bottom: 35px;
+}
+div.game.bind button{
+    width:100px;
+    height: 30px;
+    font-size:1.2rem;
+    border-radius: 10px;
+    color:white;
+    background:#00FF19;
+}
+div.game.thirddscreen{
+    height:215px;
+    width:100%;
+    display: none;
+    /* display:flex; */
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: #0000003a;
+    margin-bottom: 35px;
+}
+.game.thirddscreen > div,div.game.bind>div {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    
+
+}
+div.game.thirddscreen .personagem,div.game.bind .personagem{
+    margin-top: 29px;
+}
+div.game.thirddscreen .personagem img,div.game.bind .personagem img{
+    
+    height: 80px;
+    margin-bottom: 10px;
+}
+.game.container .versus{
+    height:49px;
+    text-align: center;
+}
+ div.game.thirddscreen h4,div.game.bind h4{
+    font-size: 2rem;
+    padding-left: 15px;
+ }
+ div.game.thirddscreen table td{
+    padding-right: 5px;
+ }
+ div.game.thirddscreen span{
+    font-size:1.3rem;
+ }
+ footer{
+    background-color: #0000003a;
+    text-align: center;
+    font-size: 2rem;
+ }
+ footer a>img{
+    height: 60px;
+    margin-right: 14px;
+ }
+ footer a>img:hover{
+    border: 1px solid white;
+    border-radius: 50px;
+ }
+ footer a>img#insta:hover{
+    border: 1px solid white;
+    border-radius: 17px;
+ }

@@ -1,0 +1,54 @@
+@media screen and (min-width:1280px){
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    body{
+        overflow-x:hidden;
+    }
+
+    header{
+        height: 792px;
+        background: url(../imagens/caçadores-desktop.png) no-repeat;
+        background-size: contain;
+        
+    }
+    nav img{
+        height: 150px;
+        padding-left: 10px;
+    }
+    nav img#hunter{
+        height: 70px;
+       
+    }
+    .start_nav_hero img{
+        height: 89px;
+    }
+    div#assinatura{
+        margin-left: 20px;
+    }
+    main .historia{
+        text-align: left;
+        margin-top: 30px;
+        height: 171px;
+        width: 773px;
+        padding-bottom: 30px;
+    
+  }
+    main .texto{
+        font-size: 1.8rem;
+        width: 504px;
+    }
+    div.principal img{
+        height: 307px;
+        position: absolute;
+        top: -90%;
+        left: 59%;
+    }
+    div.game.thirddscreen span{
+        font-size:2.1rem;
+     }
+   
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="site hunter x hunter">
+    <meta name="keywords" content="hunter,anime,caçadores,2011,lutas">
+    <meta name="author" content="victor rodrigues">
+    <title>Hunter X Hunter</title>
+    <link rel="icon" type="image/x-icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="estilos/style.css"> <!---celular-->
+    <link rel="stylesheet" href="estilos/Tablet_style.css"> <!--tablet-->
+    <link rel="stylesheet" href="estilos/Desktop_style.css"> <!--pc-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+</head>
+<body style="background-color: #00950F ;color: white;">
+    <header id="header">
+        <div class="container">
+                <nav class="start_nav">
+                    <img src="imagens/hunter.png" alt="hunter"  >
+                    <div class="start_nav_hero">
+                        <span>Troque de tema </span>
+                        <img src="imagens/logo_resized.png" alt="logo" id="hunter">
+                    </div>
+                </nav>
+                <div id="assinatura">
+                    <h1 class="title--big">HUNTER X HUNTER</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.</p>
+                    <input type="email" name="email" id="iemail" placeholder="Digite seu email" required>
+                    <br>
+                    <button id="buttonVerde">ACESSE AQUI</button>
+                    <br>
+                    <div>
+                        <input type="checkbox" name="termos" id="termos" required>
+                        <label for="termos">Li e aceitos os Termos</label>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="auto">
+            <section class="historia">
+                <div class="texto">
+                    <p>"Hunter x Hunter" é um mangá que segue a jornada de Gon Freecss em busca de seu pai, Ging Freecss, um renomado Hunter. Gon enfrenta desafios no Exame de Hunter, faz amigos como Killua, Leorio e Kurapika, enquanto explora temas de amizade e poder. A história é conhecida por sua trama envolvente e personagens bem desenvolvidos</p>
+                </div>
+                <div class="principal">
+                    <img src="imagens/gon.png" alt="Gon" id="Gon">
+                </div>
+           </section>
+       </div>
+       <section class="personagens">
+            <div class="personagem_container">
+                <div class="painel active " style="background-image: url(imagens/gon-rage.png);" id="gon-rage"><span id="span_g">gon</span></div>
+                <div class="painel" style= "background-image: url(imagens/killua-rage.png);" id="killua-rage"> <span id="span_k">killua</span></div>
+                <div class="painel" style= "background-image: url(imagens/kurapika-rage.png);" id="kurapika-rage"><span id="span_ku">kurapika</span></div>
+                <div class="painel" style=" background-image: url(imagens/leorio-rage.png);" id="leorio-rage"><span id="span_l">leorio</span></div>
+                <div class="painel" style= "background-image: url(imagens/netero.png);" id="netero-rage"><span id="span_n">netero</span></div>
+            </div>
+       </section>
+
+       <div class="body">
+           <section class="walpapers container">
+                <div class="slider">
+                    <h2 style="text-align: center;">WALPAPERS</h2>
+                    <div class="mySlides">
+                        <img src="imagens/wpp-hero.png" style="width:100%" alt="hero" id="1wpp">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="imagens/wpp-hero2.jpg" style="width:100%" alt="hero" id="2wpp">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="imagens/wpp-hero3.jpeg" style="width:100%" alt="hero" id="3wpp">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="imagens/wpp-hero4.jpg" style="width:100%" alt="hero"  id="4wpp">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="imagens/wpp-hero5.png" style="width:100%" alt="hero"  id="5wpp">
+                    </div>
+                
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+           
+           </section>
+       </div>
+       <section class="game container">
+            <h3>sorteie um personagem para ver se a neferepitou ganha!</h3>
+            <div class="game fristscreen" id="fristscreen">
+                <img src="imagens/pitou.png" alt="pitou">
+                <button id="sortear">SORTEAR</button>
+            </div>
+            <div class="game secondscreen" id="secondscreen">
+                <img src="imagens/gon-and-killua-hxh.gif" alt="gon and killua">
+                <span>PROCURANDO OPONENTES...</span>
+            </div>
+            <div class="game bind" id="telaAposta">
+                <div>
+                    <div class="personagem" id="pitou">
+                        <img src="imagens/pitou.png" alt="pitou">
+                        <h4>PITOU</h4>
+                        <button id="apostarPitou">APOSTAR</button>
+                        
+                    </div>
+      
+    
+                <img src="imagens/vs.png" alt="versus" class="versus">
+
+                    <div class="personagem" id="oponente">
+                        <img src="imagens/hisoka.png" alt="hisoka" id="imagemOponente">
+                        <h4 id="nome">HISOKA</h4>
+                        <button id="apostarRandom">APOSTAR</button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="game thirddscreen" id="thirdscreen">
+                <span id="resultado">...</span>
+                <div>
+                    <div class="personagem">
+                        <img src="imagens/pitou.png" alt="pitou">
+                        <h4>PITOU</h4>
+                        <table>
+                            <tr>
+                                <td>FORÇA:</td>
+                                <td id="forcaPitou">80</td>
+                            </tr>
+                            <tr>
+                                <td>AGILIDADE:</td>
+                                <td id="agiPitou">65</td>
+                            </tr>
+                            <tr>
+                                <td>INTELIGENCIA:</td>
+                                <td id="intPitou">90</td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+      
+    
+                <img src="imagens/vs.png" alt="versus" class="versus">
+
+                    <div class="personagem" id="oponente">
+                        <img src="imagens/hisoka.png" alt="hisoka" id="imagemOponente2">
+                        <h4 id="nome2">HISOKA</h4>
+                        <table>
+                            <tr>
+                                <td>FORÇA:</td>
+                                <td id="forcaOponente">80</td>
+                            </tr>
+                            <tr>
+                                <td>AGILIDADE:</td>
+                                <td id="agiOponente">65</td>
+                            </tr>
+                            <tr>
+                                <td>INTELIGENCIA:</td>
+                                <td id="intOponente">90</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+       </section>
+    </main>
+    <script src="scripts/main.js"></script>
+    <footer id="footer">
+        <h4>site criado por VICTOR RODRIGUES</h4>
+        <a href="www.linkedin.com/in/victor-rodrigues07"><img src="imagens/linkedin.png" alt="linkedin"></a>
+        <a href="https://github.com/ggvictor"><img src="imagens/github.png" alt="github"></a>
+        <a href="https://www.instagram.com/victor_siilva07/"><img src="imagens/instagram.png" alt="instagram" id="insta"></a>
+    </footer>
+</body>
+</html>
