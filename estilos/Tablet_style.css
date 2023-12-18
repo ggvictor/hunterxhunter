@@ -85,6 +85,9 @@ div.game.secondscreen{
     width:700px;
 
 }
+div.game.secondscreen span{
+    font-size:2rem;
+}
 div.game.secondscreen img{
     margin-top:10px;
     margin-bottom:15px;

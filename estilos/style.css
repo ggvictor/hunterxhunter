@@ -273,7 +273,7 @@ div.game.secondscreen img{
     width:70%;
 }
 div.game.secondscreen span{
-    font-size:2rem;
+    font-size:1.3rem;
 }
 div.game.bind{
     height:215px;
@@ -295,7 +295,7 @@ div.game.bind button{
     background:#00FF19;
 }
 div.game.thirddscreen{
-    height:215px;
+    height:245px;
     width:100%;
     display: none;
     /* display:flex; */
@@ -312,6 +312,14 @@ div.game.thirddscreen{
     gap:20px;
     
 
+}
+div.game.thirddscreen button{
+    width:100px;
+    height: 30px;
+    font-size:1.2rem;
+    border-radius: 10px;
+    color:white;
+    background:#00FF19;
 }
 div.game.thirddscreen .personagem,div.game.bind .personagem{
     margin-top: 29px;

@@ -148,7 +148,7 @@ const personagens = [
         forca:Math.floor(Math.random()*10+15),
         agilidade:Math.floor(Math.random()*5+10),
         inteligencia:Math.floor(Math.random()*1+15),
-        profile:"imagens/tonpa.webp"
+        profile:"imagens/tonpa .webp"
 
     },
 ]
@@ -366,4 +366,11 @@ hunter.addEventListener('click', function(){
     
     
     console.log('clicou')
+})
+
+// resetar o game
+let resetar = document.getElementById("resetar");
+resetar.addEventListener('click', function(){
+    terceiraTela.style.display='none';
+    primeiraTela.style.display='flex';
 })
