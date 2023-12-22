@@ -346,7 +346,7 @@ hunter.addEventListener('click', function(){
    span_k.innerHTML ="uvogin";
    killua_rage.style.backgroundImage ="url(imagens/uvogin-rage.jpg)";
 
-   span_k.innerHTML ="feitan";
+   span_ku.innerHTML ="feitan";
    kurapika_rage.style.backgroundImage ="url(imagens/feitan-rage.jpg)";
 
    span_l.innerHTML ="shizuku";
